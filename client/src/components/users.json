@@ -1,0 +1,27 @@
+[
+    {
+       "id":1,
+       "email":"chiru111@gmail.com",
+       "password":"chiru@123"
+    },
+    {
+        "id":2,
+        "email":"syamchiru123@gmail.com",
+        "password":"syamchiru111"
+     },
+     {
+        "id":3,
+        "email":"chiranjeevi2023@gmail.com",
+        "password":"chiranjeevi@333"
+     },
+     {
+        "id":4,
+        "email":"syampuramchiranjeevi@gmail.com",
+        "password":"victor@123"
+     },
+     {
+        "id":5,
+        "email":"krishna143@gmail.com",
+        "password":"krishna@143"
+     }
+]

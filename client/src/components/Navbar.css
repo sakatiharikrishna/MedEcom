@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .nav-menu{
+    position: fixed;
+      top: 0;
+      width: 100%;
+      background: #fff;
+  }
+  div .menu-nav{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding: 10px;
+    margin: 10px;
+    border-top:1px solid #cccccc;
+    border-bottom:1px solid #cccccc; ;
+  }
+  .menu-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  .menu-nav a:hover{
+    color: #15ACA5;
+  }
+  .header-nav{
+    display: flex;
+    padding: 5px;
+    gap: 30px;
+    height: 53px;
+  }
+  .header-nav img{
+     width: 150px;
+     margin-left: 10px;
+  }
+  .main-dropdown{
+    margin-right: 20px;
+  }
+  .dropdown {
+    float:left;
+    overflow: hidden;
+    display: block;
+  
+  }
+  label{
+    font-size: 16px;
+    line-height: 14px;
+    display: block;
+    height: 14px;
+    padding: 5px; 
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color:black;
+    padding: 0;
+    width: 100%;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 400;
+  }
+  .cart-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1px;
+    font-size: 10px;
+    background-color: rgb(255, 174, 0);
+    color: #fff;
+    padding: 5px 1px;
+    border-radius: 50%;
+  }
+  .cart-icon span{
+    padding: 2px 2px;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #f9f9f9;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(22, 83, 58);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:justify;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .header-nav .search-container {
+    float: right;
+  }
+  .form{
+    border:1px solid #b9b9b9;
+    border-radius: 25px;
+  }
+  .header-nav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: none;
+    width: 300px;
+  }
+  
+  .header-nav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #15ACA5;
+    color: white;
+    font-size: 16px;
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .header-nav input[type=text]:focus-visible{
+    outline: none;
+  }
+  @media screen and (max-width: 600px) {
+    .header-nav .search-container {
+      float: none;
+    }
+    .header-nav a, .header-nav input[type=text], .header-nav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .main-logo {
+      display: none!important;
+      }
+      .mobile-logo{
+      display: block!important;
+      height: 50px;
+      width: auto!important;
+      }
+  
+  }
+  .main-logo {
+  display: block;
+  height: 50px;
+  }
+  .mobile-logo{
+  display: none;
+  }
+  
+  .panel{
+    position: fixed;
+    height: 100%;
+    background: linear-gradient(30deg,#1ca08d,rgb(255, 254, 252));
+    top: 0;
+    right:0;
+    width: 400px;
+  }
+  .panel button{
+     margin-top: 30px;
+  }
+  .custom-input>input{
+    margin: auto;
+    width: 100%;
+  }
+  .panel-header{
+    font-weight: 600;
+    padding: 15px 32px;
+    font-size: 20px;
+    background-color: #15ACA5;
+    color: #fff;
+  }
+  .panel-header>span{
+    float: right;
+  }
+  .panel-content{
+    padding: 32px;
+  }
+  .information{
+    font-size: 16px;
+      display: flex;
+      gap: 60px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 60px;
+  }
+  .information span:hover{
+    color: #10ada6;
+  }
